@@ -1,0 +1,37 @@
+My information
+
+-About USER(74,645 members): {device_id, gender, age, group}  
+#group is group user by age from talkingdata
+
+
+-About PHONE BRAND(total 185,245): {device_id(relation from user), phone brand,
+ device model} 
+# user can use many brand phone and brand phone have many device model
+
+
+-About EVENTS(toal 3,252,950): {event_id, device_id(relation from USER), 
+timestamp, longtitude, latitude}  # one day have many event 
+
+
+-About APP EVENTS(total 32,473,067): {event_id(relation from EVENTS), app_id, 
+is_installed, is_active} #event have many app event
+
+
+-About APP LABELS(total 459,943): {app_id(relation APP EVENTS), label_id}
+
+
+-About LABEL CATEGORY(total 930): {label_id(relation from LABELS), category} 
+#category about type of app
+
+
+
+
+
+
+
+
+
+
+
+
+ 
